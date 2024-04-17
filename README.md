@@ -45,7 +45,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 # Infos da aula
+npx create-react-app --template typescript gh-pages-lab-ci
+cd gh-pages-lab-ci
+no VS npm start
+
 instalamos o gh-pages npm install gh-pages
+
+NA RAIZ DO package.json
+acrescentamos na raiz apos o "name", colocamos o "hostname":"https://pcastroneto.github.io/gh-pages-lab-comnuv", | https://user.github.io/repositorio"
 
 adcionamos isso no packge json no Scripts{ 
 "predeploy": "npm run build",
