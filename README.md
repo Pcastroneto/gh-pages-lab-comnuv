@@ -44,7 +44,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Infos da aula
+# Infos da aula
 instalamos o gh-pages npm install gh-pages
 
 adcionamos isso no packge json no Scripts{ 
