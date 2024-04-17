@@ -40,7 +40,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
-
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Infos da aula
+instalamos o gh-pages npm install gh-pages
+
+adcionamos isso no packge json no Scripts{ 
+"predeploy": "npm run build",
+"deploy": "gh-page -d build",
+
+
+rodamos depois um npm run deploy
+se chegou nisso deu bom
+
+```
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+> gh-pages-lab-ci@0.1.0 deploy
+> gh-pages -d build
+
+Published
+
+```
+
+Olhar aba actions do github
